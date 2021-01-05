@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio Recorder"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="70dp"
+        android:text="Record"
+        android:textSize="30sp"
+
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="132dp"
+        android:id="@+id/record"
+        android:src="@drawable/ic_launcher_background"        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="310dp"
+        android:text="play"
+        android:textSize="30sp"
+
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:text="PLay"
+        android:id="@+id/play"    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="290dp"
+        android:text="Stop"
+        android:textSize="30sp"
+
+        />
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="320dp"
+        android:text="Stop"
+        android:id="@+id/stop"    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="310dp"
+        android:text="pause"
+        android:textSize="30sp"
+
+        />
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="380dp"
+        android:text="pause"
+        android:id="@+id/pause"    />
+
+
+</RelativeLayout>
